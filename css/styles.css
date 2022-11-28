@@ -1,0 +1,33 @@
+body {
+    background-color: #BCEAD5;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+    margin-top: 0;
+    width: 15%;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato Light', sans-serif;
+}
+
+.top {
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}

@@ -2,22 +2,37 @@ body {
     background-color: #BCEAD5;
     margin: 0;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
     margin: 0 auto;
     margin-top: 0;
     width: 15%;
-    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    margin: 0 auto;
+    margin-top: 0;
+    width: 15%;
 }
 
 p {
     font-family: 'Lato Light', sans-serif;
 }
 
-.top {
+.top-container {
     position: relative;
     padding-top: 100px;
+}
+
+.middle-container {
+    position: relative;
+    padding-top: 50px;
+}
+
+.bottom-container {
+    position: relative;
 }
 
 .top-cloud {
@@ -30,4 +45,8 @@ p {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.footer-link {
+    padding: 5px;
 }

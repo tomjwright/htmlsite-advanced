@@ -28,16 +28,25 @@ h3 {
 }
 
 hr {
-    border-style: none none dotted;
-    border-width: 5px;
-    border-color: #cdd1d1;
-    padding-top: 5px;
+    border: dotted #cdd1d1 10px;
+    border-bottom: none;
+    margin: 15px auto;
     width: 3%;
-    size: 50;
 }
 
 p {
     line-height: 2;
+}
+
+a {
+    top: 25px;
+    padding-right: 20px;
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 .top-container {
@@ -53,8 +62,6 @@ p {
 
 .bottom-container {
     position: relative;
-    height: 150px;
-    top: 50px;
     background-color: #66BFBF;
 }
 
@@ -82,26 +89,26 @@ p {
 }
 
 .contact-text {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 .copyright-text {
     position: relative;
-    top: 40px;
+    top: 20px;
     color: #EAF6F6;
+    font-size: 0.75rem;
 }
 
 .credit-text {
     position: relative;
-    top: 50px;
+    font-size: 5px;
+    top: 10px;
 }
 
 .footer-link {
     position: relative;
-    top: 25px;
-    padding-right: 20px;
-    color: #11999E;
+    
 }
 
 .mountain {
